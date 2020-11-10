@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:id="@+id/linierlayout">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Background"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id1"
+
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/apple"
+            android:text="Apple"
+            android:onClick="func"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/banana"
+            android:text="Banana"
+            android:textColor="@color/black"
+            android:onClick="func"
+            android:textStyle="bold"
+            android:textSize="20dp"
+
+
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mango"
+            android:text="Mango"
+            android:textColor="@color/black"
+            android:onClick="func"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/grape"
+            android:text="Grape"
+            android:textColor="@color/black"
+            android:onClick="func"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+
+
+
+
+
+    </RadioGroup>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter any Sentence Here"
+        android:id="@+id/id2"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id3"
+        android:text="Calculate"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="Button"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id4"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+
+</LinearLayout>
